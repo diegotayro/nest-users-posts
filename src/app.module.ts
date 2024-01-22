@@ -5,6 +5,7 @@ import { UsersModule } from './users/users.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { PostsModule } from './posts/posts.module';
 
+// TODO UPDATE WITH ENVS
 @Module({
   imports: [
     TypeOrmModule.forRoot({
